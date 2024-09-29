@@ -15,6 +15,25 @@
 		7699B88040F8A987B510C191 /* libPods-testing-testingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-testing-testingTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B8B0AE2071AF6959879BBFD9 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5B889C69A6DD3D31C051ABAB /* PrivacyInfo.xcprivacy */; };
+		BFA09B2B2CA8EA8F00D03E7C /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B2A2CA8EA8F00D03E7C /* libc++.1.tbd */; };
+		BFA09B2D2CA8EA9D00D03E7C /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B2C2CA8EA9D00D03E7C /* libc++abi.tbd */; };
+		BFA09B2F2CA8EAA700D03E7C /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B2E2CA8EAA700D03E7C /* libicucore.A.tbd */; };
+		BFA09B312CA8EAB600D03E7C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B302CA8EAB600D03E7C /* Accelerate.framework */; };
+		BFA09B332CA8EAC200D03E7C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B322CA8EAC200D03E7C /* AudioToolbox.framework */; };
+		BFA09B352CA8EACB00D03E7C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B342CA8EACB00D03E7C /* CFNetwork.framework */; };
+		BFA09B362CA8EAD400D03E7C /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
+		BFA09B382CA8EADC00D03E7C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B372CA8EADC00D03E7C /* MobileCoreServices.framework */; };
+		BFA09B3A2CA8EAE900D03E7C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B392CA8EAE900D03E7C /* Security.framework */; };
+		BFA09B3C2CA8EAF100D03E7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B3B2CA8EAF100D03E7C /* UIKit.framework */; };
+		BFA09B3E2CA8EB0200D03E7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B3D2CA8EB0200D03E7C /* Foundation.framework */; };
+		BFA09B402CA8EB0A00D03E7C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B3F2CA8EB0A00D03E7C /* CoreFoundation.framework */; };
+		BFA09B422CA8EB1A00D03E7C /* libSystem.B.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B412CA8EB1A00D03E7C /* libSystem.B.tbd */; };
+		BFA09B442CA8EB2800D03E7C /* libobjc.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B432CA8EB2800D03E7C /* libobjc.A.tbd */; };
+		BFA09B462CA8EB4F00D03E7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B452CA8EB4F00D03E7C /* CoreGraphics.framework */; };
+		BFA09B482CA8EB5600D03E7C /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B472CA8EB5600D03E7C /* CoreServices.framework */; };
+		BFA09B4A2CA8EB5F00D03E7C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B492CA8EB5F00D03E7C /* CoreText.framework */; };
+		BFA09B4C2CA8EB6900D03E7C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B4B2CA8EB6900D03E7C /* ImageIO.framework */; };
+		BFA09B4E2CA8EB7000D03E7C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA09B4D2CA8EB7000D03E7C /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +61,28 @@
 		3B4392A12AC88292D35C810B /* Pods-testing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testing.debug.xcconfig"; path = "Target Support Files/Pods-testing/Pods-testing.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-testing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testing.release.xcconfig"; path = "Target Support Files/Pods-testing/Pods-testing.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-testing-testingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testing-testingTests.debug.xcconfig"; path = "Target Support Files/Pods-testing-testingTests/Pods-testing-testingTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5B889C69A6DD3D31C051ABAB /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = testing/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		5B889C69A6DD3D31C051ABAB /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = testing/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-testing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = testing/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-testing-testingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testing-testingTests.release.xcconfig"; path = "Target Support Files/Pods-testing-testingTests/Pods-testing-testingTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFA09B2A2CA8EA8F00D03E7C /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		BFA09B2C2CA8EA9D00D03E7C /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		BFA09B2E2CA8EAA700D03E7C /* libicucore.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
+		BFA09B302CA8EAB600D03E7C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		BFA09B322CA8EAC200D03E7C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BFA09B342CA8EACB00D03E7C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BFA09B372CA8EADC00D03E7C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BFA09B392CA8EAE900D03E7C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BFA09B3B2CA8EAF100D03E7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFA09B3D2CA8EB0200D03E7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFA09B3F2CA8EB0A00D03E7C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		BFA09B412CA8EB1A00D03E7C /* libSystem.B.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.B.tbd; path = usr/lib/libSystem.B.tbd; sourceTree = SDKROOT; };
+		BFA09B432CA8EB2800D03E7C /* libobjc.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libobjc.A.tbd; path = usr/lib/libobjc.A.tbd; sourceTree = SDKROOT; };
+		BFA09B452CA8EB4F00D03E7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFA09B472CA8EB5600D03E7C /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		BFA09B492CA8EB5F00D03E7C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		BFA09B4B2CA8EB6900D03E7C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		BFA09B4D2CA8EB7000D03E7C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -62,6 +99,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA09B4E2CA8EB7000D03E7C /* QuartzCore.framework in Frameworks */,
+				BFA09B4C2CA8EB6900D03E7C /* ImageIO.framework in Frameworks */,
+				BFA09B4A2CA8EB5F00D03E7C /* CoreText.framework in Frameworks */,
+				BFA09B482CA8EB5600D03E7C /* CoreServices.framework in Frameworks */,
+				BFA09B462CA8EB4F00D03E7C /* CoreGraphics.framework in Frameworks */,
+				BFA09B422CA8EB1A00D03E7C /* libSystem.B.tbd in Frameworks */,
+				BFA09B442CA8EB2800D03E7C /* libobjc.A.tbd in Frameworks */,
+				BFA09B2B2CA8EA8F00D03E7C /* libc++.1.tbd in Frameworks */,
+				BFA09B402CA8EB0A00D03E7C /* CoreFoundation.framework in Frameworks */,
+				BFA09B3E2CA8EB0200D03E7C /* Foundation.framework in Frameworks */,
+				BFA09B3C2CA8EAF100D03E7C /* UIKit.framework in Frameworks */,
+				BFA09B3A2CA8EAE900D03E7C /* Security.framework in Frameworks */,
+				BFA09B382CA8EADC00D03E7C /* MobileCoreServices.framework in Frameworks */,
+				BFA09B362CA8EAD400D03E7C /* JavaScriptCore.framework in Frameworks */,
+				BFA09B352CA8EACB00D03E7C /* CFNetwork.framework in Frameworks */,
+				BFA09B332CA8EAC200D03E7C /* AudioToolbox.framework in Frameworks */,
+				BFA09B312CA8EAB600D03E7C /* Accelerate.framework in Frameworks */,
+				BFA09B2F2CA8EAA700D03E7C /* libicucore.A.tbd in Frameworks */,
+				BFA09B2D2CA8EA9D00D03E7C /* libc++abi.tbd in Frameworks */,
 				0C80B921A6F3F58F76C31292 /* libPods-testing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +160,24 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFA09B4D2CA8EB7000D03E7C /* QuartzCore.framework */,
+				BFA09B4B2CA8EB6900D03E7C /* ImageIO.framework */,
+				BFA09B492CA8EB5F00D03E7C /* CoreText.framework */,
+				BFA09B472CA8EB5600D03E7C /* CoreServices.framework */,
+				BFA09B452CA8EB4F00D03E7C /* CoreGraphics.framework */,
+				BFA09B432CA8EB2800D03E7C /* libobjc.A.tbd */,
+				BFA09B412CA8EB1A00D03E7C /* libSystem.B.tbd */,
+				BFA09B3F2CA8EB0A00D03E7C /* CoreFoundation.framework */,
+				BFA09B3D2CA8EB0200D03E7C /* Foundation.framework */,
+				BFA09B3B2CA8EAF100D03E7C /* UIKit.framework */,
+				BFA09B392CA8EAE900D03E7C /* Security.framework */,
+				BFA09B372CA8EADC00D03E7C /* MobileCoreServices.framework */,
+				BFA09B342CA8EACB00D03E7C /* CFNetwork.framework */,
+				BFA09B322CA8EAC200D03E7C /* AudioToolbox.framework */,
+				BFA09B302CA8EAB600D03E7C /* Accelerate.framework */,
+				BFA09B2E2CA8EAA700D03E7C /* libicucore.A.tbd */,
+				BFA09B2C2CA8EA9D00D03E7C /* libc++abi.tbd */,
+				BFA09B2A2CA8EA8F00D03E7C /* libc++.1.tbd */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-testing.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-testing-testingTests.a */,
@@ -590,10 +664,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -666,10 +737,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
